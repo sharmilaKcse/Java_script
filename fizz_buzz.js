@@ -8,6 +8,6 @@ for(i=1;i<=num;i++){
     else if(i%5==0)
         a.push("Buzz")
     else
-        a.push(i)
+        a.push(""+i+"")
     }
 console.log(a);
